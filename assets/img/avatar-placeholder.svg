@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 360" role="img" aria-labelledby="title desc">
+  <title id="title">个人头像占位图</title>
+  <desc id="desc">请替换为真实个人照片</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#27445a"/>
+      <stop offset="1" stop-color="#102334"/>
+    </linearGradient>
+  </defs>
+  <rect width="360" height="360" fill="url(#bg)"/>
+  <circle cx="180" cy="133" r="62" fill="#b9c9d5" opacity=".9"/>
+  <path d="M62 333c9-74 59-116 118-116s109 42 118 116" fill="#b9c9d5" opacity=".9"/>
+</svg>

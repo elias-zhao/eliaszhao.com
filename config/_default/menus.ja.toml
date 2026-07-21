@@ -1,0 +1,24 @@
+[[main]]
+  name = "ホーム"
+  pageRef = "/"
+  weight = 10
+
+[[main]]
+  name = "プロフィール"
+  pageRef = "about"
+  weight = 20
+
+[[main]]
+  name = "経歴"
+  pageRef = "resume"
+  weight = 30
+
+[[main]]
+  name = "記事"
+  pageRef = "posts"
+  weight = 40
+
+[[main]]
+  name = "タグ"
+  pageRef = "tags"
+  weight = 50

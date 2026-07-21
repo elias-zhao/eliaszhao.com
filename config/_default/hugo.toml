@@ -1,0 +1,16 @@
+baseURL = "https://YOUR_GITHUB_USERNAME.github.io/"
+theme = "blowfish"
+locale = "zh-CN"
+defaultContentLanguage = "zh-cn"
+title = "我的博客"
+enableRobotsTXT = true
+summaryLength = 30
+
+[pagination]
+  pagerSize = 10
+
+[permalinks]
+  posts = "/posts/:slug/"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]

@@ -1,0 +1,21 @@
+disabled = false
+locale = "fr"
+label = "Français"
+weight = 5
+title = "Mon blog"
+
+[params]
+  displayName = "Français"
+  isoCode = "fr"
+  rtl = false
+  dateFormat = "2 January 2006"
+  description = "Réflexions, apprentissages et vie quotidienne."
+
+[params.author]
+  name = "Votre nom"
+  image = "img/avatar-home-centered.png"
+  headline = "Je partage ici mes réflexions."
+  bio = "Une personne qui apprend sans cesse et vit avec attention."
+  links = [
+    { github = "https://github.com/YOUR_GITHUB_USERNAME" },
+  ]

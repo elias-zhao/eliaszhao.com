@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1200" viewBox="0 0 1920 1200" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">淡蓝色抽象背景</title>
+  <desc id="desc">用于个人博客首页的可替换背景图</desc>
+  <defs>
+    <linearGradient id="base" x1="135" y1="78" x2="1684" y2="1112" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E6F3F7"/>
+      <stop offset=".52" stop-color="#D7EAF0"/>
+      <stop offset="1" stop-color="#F5F7F6"/>
+    </linearGradient>
+    <linearGradient id="waveA" x1="274" y1="121" x2="1435" y2="517" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#B7D7E0" stop-opacity=".7"/>
+      <stop offset="1" stop-color="#EFF8F8" stop-opacity=".12"/>
+    </linearGradient>
+    <linearGradient id="waveB" x1="177" y1="584" x2="1714" y2="898" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F6FCFC" stop-opacity=".85"/>
+      <stop offset="1" stop-color="#A7CED9" stop-opacity=".38"/>
+    </linearGradient>
+    <filter id="blur" x="-100" y="-100" width="2120" height="1400" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="36"/>
+    </filter>
+  </defs>
+  <rect width="1920" height="1200" fill="url(#base)"/>
+  <g filter="url(#blur)" opacity=".82">
+    <path d="M-77 185C209 43 379 180 625 201c284 24 316-136 608-35 204 71 294 8 767-45v392c-367 119-536-11-806 52-316 74-336-10-625 15C271 607 85 691-77 620V185Z" fill="url(#waveA)"/>
+    <path d="M-58 698c266-156 563-63 797-86 276-27 375-173 657-55 213 89 358 49 582-67v450H-58V698Z" fill="url(#waveB)"/>
+    <path d="M208 1027c246-158 524-54 751-92 271-45 466-186 924-32v287H152l56-163Z" fill="#FCFEFD" fill-opacity=".62"/>
+  </g>
+</svg>

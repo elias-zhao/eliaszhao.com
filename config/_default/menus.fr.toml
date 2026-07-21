@@ -1,0 +1,24 @@
+[[main]]
+  name = "Accueil"
+  pageRef = "/"
+  weight = 10
+
+[[main]]
+  name = "À propos"
+  pageRef = "about"
+  weight = 20
+
+[[main]]
+  name = "CV"
+  pageRef = "resume"
+  weight = 30
+
+[[main]]
+  name = "Articles"
+  pageRef = "posts"
+  weight = 40
+
+[[main]]
+  name = "Étiquettes"
+  pageRef = "tags"
+  weight = 50

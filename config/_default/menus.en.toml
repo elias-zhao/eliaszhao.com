@@ -1,0 +1,24 @@
+[[main]]
+  name = "Home"
+  pageRef = "/"
+  weight = 10
+
+[[main]]
+  name = "About"
+  pageRef = "about"
+  weight = 20
+
+[[main]]
+  name = "Resume"
+  pageRef = "resume"
+  weight = 30
+
+[[main]]
+  name = "Articles"
+  pageRef = "posts"
+  weight = 40
+
+[[main]]
+  name = "Tags"
+  pageRef = "tags"
+  weight = 50
