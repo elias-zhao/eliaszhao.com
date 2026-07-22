@@ -1,0 +1,7 @@
+{{ with .Site.Params.Author.tags }}
+  <div class="homepage-tags" aria-label="个人标签">
+    {{ range . }}
+      <span>{{ . }}</span>
+    {{ end }}
+  </div>
+{{ end }}

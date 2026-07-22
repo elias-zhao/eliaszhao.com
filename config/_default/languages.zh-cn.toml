@@ -11,14 +11,27 @@ title = "我的博客"
   description = "记录想法、学习与生活。"
 
 [params.author]
-  # TODO：替换为你的姓名、身份描述与头像。
-  name = "你的名字"
+  name = "赵杨"
   image = "img/avatar-home-centered.png"
-  headline = "在这里分享我的想法、经历与正在做的事。"
-  bio = "一位持续学习、认真生活的人。"
+  # 首页仅显示姓名、社交图标与标签；完整介绍请见“关于我”页面。
+  headline = ""
+  bio = ""
+  tags = [
+    "数据库实践者",
+    "全栈工程师",
+    "AI 探索者",
+    "城市漫游者",
+    "长期主义者",
+    "资深小茶客",
+    "民谣诗人",
+    "数码极客",
+  ]
   links = [
-    # TODO：将下列地址替换为你的真实主页链接；不需要的平台可直接删掉。
+    # 这些为预留地址，后续替换为真实账号即可。
+    { email = "YOUR_EMAIL@example.com" },
     { linkedin = "https://www.linkedin.com/in/YOUR_LINKEDIN_USERNAME/" },
     { github = "https://github.com/YOUR_GITHUB_USERNAME" },
-    { email = "hello@example.com" },
+    { instagram = "https://www.instagram.com/YOUR_INSTAGRAM_USERNAME/" },
+    { x-twitter = "https://x.com/YOUR_X_USERNAME" },
+    { telegram = "https://t.me/YOUR_TELEGRAM_USERNAME" },
   ]

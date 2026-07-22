@@ -1,0 +1,10 @@
+{{ with .Translations }}
+  {{ $translation := index . 0 }}
+  <a
+    href="{{ $translation.RelPermalink }}"
+    class="cursor-pointer flex items-center bf-icon-color-hover"
+    title="{{ $translation.Language.Params.displayName }}"
+    aria-label="Switch to {{ $translation.Language.Params.displayName }}">
+    {{ partial "icon.html" "language" }}
+  </a>
+{{ end }}
