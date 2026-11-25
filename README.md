@@ -16,7 +16,7 @@ hugo server -D
 ## 发布
 
 推送到 `main` 后，`.github/workflows/hugo.yml` 会自动构建并部署到 GitHub Pages：
-<https://elias-zhao.github.io/eliaszhao.com/>
+<https://eliaszhao.com/>
 
 ## 从这里开始修改
 
