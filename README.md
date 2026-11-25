@@ -13,20 +13,10 @@ hugo server -D
 
 浏览器打开 <http://localhost:1313/>。
 
-## 发布到 GitHub Pages
+## 发布
 
-1. 在 GitHub 新建一个仓库。若要使用 `https://你的用户名.github.io/`，仓库必须命名为 `你的用户名.github.io`。
-2. 将本地仓库关联并推送：
-
-   ```bash
-   git remote add origin https://github.com/你的用户名/仓库名.git
-   git add .
-   git commit -m "Initial Hugo blog"
-   git push -u origin main
-   ```
-
-3. 在 GitHub 仓库的 **Settings → Pages → Build and deployment** 中，将 Source 设为 **GitHub Actions**。
-4. 等待 Actions 完成，Pages 链接会显示在部署结果中。
+推送到 `main` 后，`.github/workflows/hugo.yml` 会自动构建并部署到 GitHub Pages：
+<https://elias-zhao.github.io/eliaszhao.com/>
 
 ## 从这里开始修改
 

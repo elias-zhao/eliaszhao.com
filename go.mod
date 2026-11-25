@@ -1,4 +1,4 @@
-module github.com/elias-zhao/blog
+module github.com/elias-zhao/eliaszhao.com
 
 go 1.27.4
 

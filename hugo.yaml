@@ -1,7 +1,7 @@
 # 站点配置（OINK 主题）。中文为默认语言（根路径），英文位于 /en/。
 
 title: &siteTitle 赵杨
-baseURL: https://YOUR_GITHUB_USERNAME.github.io/ # 部署时由 GitHub Actions 覆盖
+baseURL: https://elias-zhao.github.io/eliaszhao.com/ # 部署时由 GitHub Actions 覆盖
 defaultContentLanguage: zh
 enableGitInfo: true
 enableRobotsTXT: true
@@ -63,7 +63,7 @@ params:
     sidebar_menu_foldable: true
     sidebar_icon_policy: groups
     backlinks: true
-  # github_repo: https://github.com/elias-zhao/blog
+  # github_repo: https://github.com/elias-zhao/eliaszhao.com
 
 module:
   imports:
