@@ -1,0 +1,21 @@
+sections: [hero, cards]
+
+hero:
+  align: start
+  image: { src: img/avatar-home-centered.png, alt: 赵杨 }
+  eyebrow: 数据库工程师 · AI 全栈学习者
+  title_lines:
+    - words: [{ text: 你好，我是赵杨。 }]
+  lead: 量化研究员 · 全栈工程师 · 数据库专家 · 基础设施工程师 · AI 实践者 · 终身学习者 · 长期主义者 · 资深小茶客 · 民谣诗人
+  actions:
+    - { label: 关于我, url: about/, icon: fa-solid fa-user, style: primary }
+    - { label: 阅读文章, url: posts/, icon: fa-solid fa-pen-nib, style: ghost }
+
+cards:
+  eyebrow: 从这里开始
+  title: 站内导航
+  columns: 3
+  items:
+    - { title: 关于, desc: 我是谁、在做什么。, icon: fa-solid fa-user, url: about/ }
+    - { title: 简历, desc: 经历、技能与代表项目。, icon: fa-solid fa-id-card, url: resume/ }
+    - { title: 文章, desc: 想法、学习与生活记录。, icon: fa-solid fa-pen-nib, url: posts/ }

@@ -1,6 +1,10 @@
 ---
 title: "Resume"
 description: "Experience and skills"
+type: docs
+menus:
+  main:
+    weight: 20
 ---
 
 This page collects my experience, skills, and selected projects.

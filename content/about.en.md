@@ -1,6 +1,10 @@
 ---
 title: "About"
 description: "A short introduction"
+type: docs
+menus:
+  main:
+    weight: 10
 ---
 
 Welcome. This page is a short introduction to my work, interests, and the ideas I share here.

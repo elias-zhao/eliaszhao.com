@@ -1,0 +1,21 @@
+sections: [hero, cards]
+
+hero:
+  align: start
+  image: { src: img/avatar-home-centered.png, alt: Yang Zhao }
+  eyebrow: Database engineer · AI full-stack learner
+  title_lines:
+    - words: [{ text: Hi, I'm Yang Zhao. }]
+  lead: Quant researcher · Full-stack engineer · Database expert · Infrastructure engineer · AI practitioner · Lifelong learner
+  actions:
+    - { label: About me, url: about/, icon: fa-solid fa-user, style: primary }
+    - { label: Read posts, url: posts/, icon: fa-solid fa-pen-nib, style: ghost }
+
+cards:
+  eyebrow: Start here
+  title: Explore
+  columns: 3
+  items:
+    - { title: About, desc: Who I am and what I work on., icon: fa-solid fa-user, url: about/ }
+    - { title: Resume, desc: Experience, skills, and projects., icon: fa-solid fa-id-card, url: resume/ }
+    - { title: Articles, desc: Notes on ideas, learning, and life., icon: fa-solid fa-pen-nib, url: posts/ }

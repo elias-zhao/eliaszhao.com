@@ -1,6 +1,4 @@
 ---
-title: ""
-description: "Personal site and recent posts"
+title: Yang Zhao
+description: Personal site and recent posts
 ---
-
-{{< homepage-tags >}}

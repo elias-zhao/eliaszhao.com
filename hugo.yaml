@@ -1,0 +1,70 @@
+# 站点配置（OINK 主题）。中文为默认语言（根路径），英文位于 /en/。
+
+title: &siteTitle 赵杨
+baseURL: https://YOUR_GITHUB_USERNAME.github.io/ # 部署时由 GitHub Actions 覆盖
+defaultContentLanguage: zh
+enableGitInfo: true
+enableRobotsTXT: true
+enableEmoji: true
+timeZone: Asia/Shanghai
+
+languages:
+  zh:
+    label: 简体中文
+    locale: zh-CN
+    weight: 1
+    title: *siteTitle
+    hasCJKLanguage: true
+    params:
+      description: 记录想法、学习与生活。
+  en:
+    label: English
+    locale: en-US
+    weight: 2
+    title: Yang Zhao
+    params:
+      description: Notes on ideas, learning, and life.
+
+# 保持原有文章地址 /posts/<slug>/ 不变
+permalinks:
+  page:
+    posts: /posts/:slug/
+
+# OINK 的 Markdown 组件依赖这三项 Goldmark 设置
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+    parser:
+      attribute:
+        block: true
+      wrapStandAloneImageWithinParagraph: false
+  highlight:
+    noClasses: false
+
+outputs:
+  home: [HTML, RSS, markdown, LLMS]
+  page: [HTML, markdown]
+  section: [HTML, RSS, print, markdown]
+
+params:
+  offline_search: true
+  copyright:
+    authors: 赵杨
+    from_year: 2026
+  footer_center_info: ''
+  ui:
+    compare: true
+    preset: paper
+    preset_menu: [paper, slate, ink, terminal]
+    dark_mode: true
+    section_index: cards
+    blog_index: list
+    sidebar_menu_foldable: true
+    sidebar_icon_policy: groups
+    backlinks: true
+  # github_repo: https://github.com/elias-zhao/blog
+
+module:
+  imports:
+    - path: github.com/pgsty/oink
