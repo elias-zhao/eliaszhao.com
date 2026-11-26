@@ -1,19 +1,20 @@
 sections:
   - hero
   - { type: cards, key: columns }
-  - { type: markdown, key: business_card }
   - { type: cards, key: explore }
 
 hero:
   align: start
   image: { src: img/avatar.png, alt: Yang Zhao }
+  media:
+    ratio: "1fr 240px"
+    max_width: "216px"
   title_lines:
     - words: [{ text: Yang Zhao (eliaszhao) }]
   lead: Former Tencent Database Expert | Quant Researcher | Full-Stack Engineer | Infrastructure Architect | AI Practitioner
   actions:
     - { label: About me, url: about/, icon: fa-solid fa-user, style: primary }
-    - { label: Resume, url: resume/, icon: fa-solid fa-id-card, style: ghost }
-    - { label: All posts, url: posts/, icon: fa-solid fa-pen-nib, style: ghost }
+    - { label: Card, url: card/, icon: fa-solid fa-address-card, style: ghost }
 
 columns:
   eyebrow: Columns
@@ -36,23 +37,6 @@ columns:
       desc: Linux systems, servers, virtualization, storage, networking, and Homelab infrastructure.
       icon: fa-solid fa-server
       url: infra/
-
-business_card:
-  eyebrow: Contact
-  title: Business Card
-  body: |
-    <div style="max-width: 820px; margin: 0 auto; text-align: center;">
-      <a href="/img/business-card.png" target="_blank" rel="noopener noreferrer" title="Open full resolution">
-        <img src="/img/business-card.png" alt="Yang Zhao (eliaszhao) Business Card" style="width: 100%; height: auto; border-radius: 12px; display: block; margin: 0 auto;" />
-      </a>
-      <p style="margin-top: 1rem; font-size: 0.92rem; opacity: 0.82;">
-        <a href="mailto:zy2310433716@gmail.com">Email</a> ·
-        <a href="https://github.com/elias-zhao" target="_blank" rel="noopener noreferrer">GitHub</a> ·
-        <a href="https://www.linkedin.com/in/elias-zhao/" target="_blank" rel="noopener noreferrer">LinkedIn</a> ·
-        <a href="https://x.com/EliasZhao_78786" target="_blank" rel="noopener noreferrer">X</a> ·
-        <a href="https://wa.me/eliaszhao" target="_blank" rel="noopener noreferrer">WhatsApp</a>
-      </p>
-    </div>
 
 explore:
   eyebrow: More
