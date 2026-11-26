@@ -1,21 +1,64 @@
-sections: [hero, cards]
+sections:
+  - hero
+  - { type: cards, key: columns }
+  - { type: markdown, key: business_card }
+  - { type: cards, key: explore }
 
 hero:
   align: start
-  image: { src: img/avatar-home-centered.png, alt: 赵杨 }
-  eyebrow: 数据库工程师 · AI 全栈学习者
+  image: { src: img/avatar.png, alt: 赵杨 }
   title_lines:
-    - words: [{ text: 你好，我是赵杨。 }]
-  lead: 量化研究员 · 全栈工程师 · 数据库专家 · 基础设施工程师 · AI 实践者 · 终身学习者 · 长期主义者 · 资深小茶客 · 民谣诗人
+    - words: [{ text: 赵杨（eliaszhao） }]
+  lead: 前腾讯数据库专家｜量化研究员｜全栈工程师｜基础架构师｜AI 实践者
   actions:
     - { label: 关于我, url: about/, icon: fa-solid fa-user, style: primary }
-    - { label: 阅读文章, url: posts/, icon: fa-solid fa-pen-nib, style: ghost }
+    - { label: 个人简历, url: resume/, icon: fa-solid fa-id-card, style: ghost }
+    - { label: 全部文章, url: posts/, icon: fa-solid fa-pen-nib, style: ghost }
 
-cards:
-  eyebrow: 从这里开始
-  title: 站内导航
+columns:
+  eyebrow: 专栏
+  title: 核心方向
+  columns: 2
+  items:
+    - title: 数据库专家
+      desc: MySQL、TDSQL、TiDB、OceanBase 等数据库架构、性能调优、高可用保障与故障复盘。
+      icon: fa-solid fa-database
+      url: db/
+    - title: 量化研究员
+      desc: 量化策略研究、数据工程、回测框架与交易系统实践。
+      icon: fa-solid fa-chart-line
+      url: quant/
+    - title: AI 实践者
+      desc: AI Agent、Vibe Coding、自动化工具、内容工作流与全栈应用构建。
+      icon: fa-solid fa-robot
+      url: ai/
+    - title: 基础架构师
+      desc: Linux 系统、服务器硬件、虚拟化、存储网络与个人 Homelab 基础设施实践。
+      icon: fa-solid fa-server
+      url: infra/
+
+business_card:
+  eyebrow: 联系我
+  title: 个人名片
+  body: |
+    <div style="max-width: 820px; margin: 0 auto; text-align: center;">
+      <a href="/img/business-card.png" target="_blank" rel="noopener noreferrer" title="点击查看高清原图">
+        <img src="/img/business-card.png" alt="赵杨（eliaszhao）个人名片" style="width: 100%; height: auto; border-radius: 12px; display: block; margin: 0 auto;" />
+      </a>
+      <p style="margin-top: 1rem; font-size: 0.92rem; opacity: 0.82;">
+        <a href="mailto:zy2310433716@gmail.com">Email</a> ·
+        <a href="https://github.com/elias-zhao" target="_blank" rel="noopener noreferrer">GitHub</a> ·
+        <a href="https://www.linkedin.com/in/elias-zhao/" target="_blank" rel="noopener noreferrer">LinkedIn</a> ·
+        <a href="https://x.com/EliasZhao_78786" target="_blank" rel="noopener noreferrer">X</a> ·
+        <a href="https://wa.me/eliaszhao" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+      </p>
+    </div>
+
+explore:
+  eyebrow: 更多
+  title: 档案与入口
   columns: 3
   items:
-    - { title: 关于, desc: 我是谁、在做什么。, icon: fa-solid fa-user, url: about/ }
-    - { title: 简历, desc: 经历、技能与代表项目。, icon: fa-solid fa-id-card, url: resume/ }
-    - { title: 文章, desc: 想法、学习与生活记录。, icon: fa-solid fa-pen-nib, url: posts/ }
+    - { title: 关于我, desc: 我的经历、擅长领域与正在构建的方向。, icon: fa-solid fa-user, url: about/ }
+    - { title: 简历, desc: 个人工作经历、技术栈与代表项目。, icon: fa-solid fa-id-card, url: resume/ }
+    - { title: 全部文章, desc: 想法、技术笔记与长期沉淀。, icon: fa-solid fa-pen-nib, url: posts/ }

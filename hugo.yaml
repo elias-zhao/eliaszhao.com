@@ -16,14 +16,28 @@ languages:
     title: *siteTitle
     hasCJKLanguage: true
     params:
-      description: 记录想法、学习与生活。
+      description: 赵杨（eliaszhao）：前腾讯数据库专家｜量化研究员｜全栈工程师｜基础架构师｜AI 实践者
+    menus:
+      main:
+        - identifier: columns
+          name: 专栏
+          weight: 5
+          params:
+            icon: fa-solid fa-layer-group
   en:
     label: English
     locale: en-US
     weight: 2
     title: Yang Zhao
     params:
-      description: Notes on ideas, learning, and life.
+      description: Yang Zhao (eliaszhao) — Former Tencent Database Expert | Quant Researcher | Full-Stack Engineer | Infrastructure Architect | AI Practitioner
+    menus:
+      main:
+        - identifier: columns
+          name: Columns
+          weight: 5
+          params:
+            icon: fa-solid fa-layer-group
 
 # 保持原有文章地址 /posts/<slug>/ 不变
 permalinks:

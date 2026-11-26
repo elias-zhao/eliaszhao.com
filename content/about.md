@@ -43,6 +43,12 @@ menus:
 
 ## 保持联系
 
-欢迎通过 [GitHub](https://github.com/YOUR_GITHUB_USERNAME) 查看我的最新项目，或在 [LinkedIn](https://www.linkedin.com/in/YOUR_LINKEDIN_USERNAME/) 与我联系；也可以浏览我的[简历](/resume/)。期待与你交流！
+欢迎通过以下方式找到我，也可以浏览我的[简历](/resume/)：
 
-> GitHub 和 LinkedIn 目前为预留链接，后续将地址中的 `YOUR_*_USERNAME` 替换为你的真实用户名即可。
+- **Email**：[zy2310433716@gmail.com](mailto:zy2310433716@gmail.com)
+- **GitHub**：[github.com/elias-zhao](https://github.com/elias-zhao)
+- **LinkedIn**：[linkedin.com/in/elias-zhao](https://www.linkedin.com/in/elias-zhao/)
+- **X**：[x.com/EliasZhao_78786](https://x.com/EliasZhao_78786)
+- **WhatsApp**：[wa.me/eliaszhao](https://wa.me/eliaszhao)
+
+![赵杨（eliaszhao）个人名片](/img/business-card.png)
