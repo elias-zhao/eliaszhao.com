@@ -19,7 +19,7 @@ hero:
 columns:
   eyebrow: Columns
   title: Core Areas
-  columns: 2
+  columns: 3
   items:
     - title: Database Expert
       desc: Architecture, performance tuning, high availability, and incident reviews for MySQL, TDSQL, TiDB, and OceanBase.
@@ -37,6 +37,10 @@ columns:
       desc: Linux systems, servers, virtualization, storage, networking, and Homelab infrastructure.
       icon: fa-solid fa-server
       url: infra/
+    - title: Slices of the World
+      desc: Moments captured across travels, mountains, light, and everyday life.
+      icon: fa-solid fa-camera-retro
+      url: slices/
 
 explore:
   eyebrow: More

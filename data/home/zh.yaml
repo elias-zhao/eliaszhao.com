@@ -19,7 +19,7 @@ hero:
 columns:
   eyebrow: 专栏
   title: 核心方向
-  columns: 2
+  columns: 3
   items:
     - title: 数据库专家
       desc: MySQL、TDSQL、TiDB、OceanBase 等数据库架构、性能调优、高可用保障与故障复盘。
@@ -37,6 +37,10 @@ columns:
       desc: Linux 系统、服务器硬件、虚拟化、存储网络与个人 Homelab 基础设施实践。
       icon: fa-solid fa-server
       url: infra/
+    - title: 世界切片
+      desc: 旅途、山川、光影与生活里的摄影定格瞬间。
+      icon: fa-solid fa-camera-retro
+      url: slices/
 
 explore:
   eyebrow: 更多
